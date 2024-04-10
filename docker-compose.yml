@@ -1,7 +1,8 @@
 version: '3'
 services:
   ranchers:
-    image: rancher/rancher:stable
+    image: rancher/rancher:v.2.8.2
+    container_name: ranchers
     privileged: true
     volumes:
       - /opt/rancher:/var/lib/rancher
